@@ -1,0 +1,336 @@
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+/*Responsive*/
+
+@media screen and (max-width: 1100px) {
+
+	/* MAIN */
+	h1 {
+		font-size: 6em;
+	}
+
+	h2 {
+		font-size: 4em;
+		text-shadow: 0px 0px 15px rgba(0, 0, 0, 0);
+		font-family: 'Open Sans Condensed', sans-serif;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	.section_header {
+		width: 50%;
+	}
+
+	.section_header hr {
+		border: 2px solid #afbbc6;
+	}
+
+	/* NAV */
+	.header-inner,
+	.nav-is-stuck .main-header {
+		display: none;
+	}
+
+	#responsive_menu {
+		display: none;
+		position: fixed;
+		background-color: #fff;
+		background-image: url(../img/frise_vert.png);
+		background-repeat: repeat-y;
+		background-position: left;
+		background-attachment: fixed;
+		margin-right: 20px;
+		min-height: 100vh;
+		border-right: 0.5px solid #415675;
+		padding-right: 25px;
+	}
+
+	.header-logo-resp img {
+		height: 150px;
+	}
+
+	.header-logo-resp a:hover {
+		border-bottom: 0px;
+	}
+
+	.icon_hamburger {
+		display: block;
+		position: fixed;
+		top: 75px;
+		left: 50px;
+		color: #fff;
+		font-size: 3em;
+	}
+
+	.nav_responsive {
+		font-size: 3em;
+		padding-right: 20px;
+	}
+
+	.nav_responsive nav ul {
+		list-style-type: none;
+	}
+
+	/* HOME */
+	#title_home {
+		width: 80%;
+	}
+
+	.p_home {
+		font-size: 1.6em;
+		color: #fff;
+	}
+
+	#p_home1 {
+		text-align: center;
+	}
+
+	#p_home2 {
+		text-align: center;
+	}
+
+	#projet_pro h3,
+	.speech {
+		display: none;
+	}
+
+	/* FORMATION */
+	#section_formation .content {
+		display: flex;
+		flex-direction: column;
+		background: #415675;
+		background-position: top left;
+	}
+
+	#skills,
+	#s_formation {
+		width: 88%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+		background-color: rgba(255, 255, 255, 0.8);
+		font-size: 1.6em;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	table {
+		font-size: 1.6em;
+	}
+
+	td img {
+		height: 35px;
+	}
+
+	/* PORTFOLIO */
+	#liens_projets {
+		flex-direction: column;
+	}
+
+	#portfolio_button {
+		width: 50%;
+		font-size: 2.5em;
+		padding-top: 30px;
+		padding-bottom: 30px
+	}
+
+	ul#galerie_mini {
+		flex-wrap: wrap;
+	}
+
+	ul#galerie_mini li a img {
+		height: 200px;
+		margin-bottom: 20px;
+	}
+
+	dl#photo img {
+		width: 100%;
+	}
+
+	/* PARCOURS */
+	.text {
+		color: #f2f2f2;
+		font-size: 1.5em;
+		padding-top: 10px;
+		padding-left: 60px;
+		position: absolute;
+		bottom: 8px;
+		width: 70%;
+		text-align: left;
+		height: 310px;
+		;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+
+	.text h5 {
+		font-size: 1.3em;
+		margin-bottom: 0px;
+	}
+	.text p {
+		margin-bottom: 3px;
+		margin-top: 3px;
+	}
+	.dot {
+		height: 75px;
+		width: 75px;
+		margin: 0 30px;
+	}
+
+	.dot img {
+		width: 76px;
+	}
+
+	.timeline {
+		bottom: 55px;
+		width: 75%;
+
+	}
+
+	/*ABOUT*/
+	#section_profil .content {
+		background: #415675;
+		background-position: left;
+		flex-direction: column;
+		padding-left: 0px;
+	}
+
+
+
+	#profil {
+		padding-left: 15px;
+		padding-right: 35px;
+	}
+
+	#about {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	#force_faiblesse {
+		flex-direction: column;
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px;
+	}
+
+	#force,
+	#faiblesse,
+	#reco {
+		width: 100%;
+		margin-left: 0px;
+		padding-right: 15px;
+		padding-left: 15px;
+		font-size: 1.6em;
+	}
+
+	/*CONTACT*/
+	#coords {
+		width: 88%;
+		padding-top: 20px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+		padding-bottom: 20px;
+		background-color: rgba(0, 0, 0, 0.7);
+		border-radius: 10px 10px 10px 10px;
+		font-size: 1.8em;
+	}
+
+	.coord {
+		width: 100%;
+		height: 75px;
+		margin-bottom: 95px;
+		padding-top: 100px;
+		padding-bottom: 120px;
+	}
+
+	#address {
+		width: 70%;
+	}
+
+	#social {
+		width: 35%;
+		justify-content: space-between;
+	}
+
+	#linkedin {
+		background-image: url("../img/linkedin-icon.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 90px;
+		width: 90px;
+	}
+
+	#linkedin:hover {
+		background-image: url("../img/linkedin-icon-y.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+}
+
+/*Smartphone*/
+
+@media screen and (max-width: 500px) {
+
+	/* NAV */
+	.header-logo {
+		width: 50%;
+	}
+
+	.header-logo img {
+		height: 120px;
+	}
+
+	.icon_hamburger {
+		font-size: 6em;
+	}
+
+	.nav_responsive {
+		font-size: 3em;
+	}
+
+	/* FORMATION */
+	#skills,
+	#s_formation {
+		margin-bottom: 100px;
+		font-size: 1.8em;
+	}
+
+	table {
+		font-size: 1.8em;
+	}
+
+	/* PORTFOLIO */
+	ul#galerie_mini li a img {
+		width: 200px;
+		margin-bottom: 20px;
+	}
+
+	dl#photo img {
+		width: 75%;
+	}
+
+	/* PARCOURS */
+	.text_exp {
+		font-size: 1.8em;
+	}
+
+	#projet_pro,
+	#about,
+	#force,
+	#faiblesse {
+		margin-bottom: 100px;
+	}
+
+
+}

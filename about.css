@@ -1,0 +1,86 @@
+/*----section profil----*/
+
+/* fonts
+
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Amatic SC', cursive; 
+*/
+
+
+#section_profil .content
+{
+	background-image: url(../img/frise_vert.png);
+	background-position: center;
+	background-repeat: repeat-y;
+	display: flex;
+	flex-direction: column;
+}
+
+#profil, #about
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px 10px 10px 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+	font-size: 1.5em;
+}
+
+.separation
+{
+	width: 50%;
+	margin: auto;
+	border: 0.5px solid #415675;
+	margin-bottom: 20px;
+}
+
+/*bouton portfolio*/
+
+#ff_button {
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15;
+	padding: 15px;
+	border: 1px solid #415675;
+	color: #415675;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.9em;
+	cursor: pointer;
+}
+
+#ff_button:hover {
+	background-color: rgba(255,255,255,0.3);
+}
+
+#plus_minus {
+	padding-left: 10px;
+}
+
+#force_faiblesse
+{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px;
+	padding: 0px;
+}
+
+#force, #faiblesse
+{
+	width: 49%;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#force ul, #faiblesse ul {
+	margin-left: 0px;
+}

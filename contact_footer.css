@@ -1,0 +1,82 @@
+#contact_content
+{
+	background: url(../img/contact_retro.jpg) no-repeat right;
+	background-size: cover;
+	padding-bottom: 30px;
+	box-shadow: 0px -5px 7px rgba(0, 0, 0, 0.6);
+}
+
+#coords
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}
+
+.coord
+{
+	width: 28%;
+	height: 75px;
+	color: #fff;
+	font-size: 1.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+	padding-bottom: 30px;
+}
+
+.coord a
+{
+	color: #fff;
+}
+
+.coord a:hover 
+{
+	border-bottom: 0px;
+	color: #ffba00;
+}
+
+#address
+{
+	width: 15%;
+	text-align: center;
+}
+
+#social
+{
+	width: 15%;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#linkedin
+{
+	background-image: url("../img/linkedin-icon.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 75px;
+	width: 75px;
+}
+
+#linkedin:hover
+{
+	background-image: url("../img/linkedin-icon-y.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+footer
+{
+	background: url(../img/text_papier.jpg) repeat;
+	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: white;
+}

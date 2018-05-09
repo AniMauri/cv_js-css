@@ -1,0 +1,109 @@
+/* liens */
+
+.margin-real {
+	margin-top: -150px;
+	height: 120px;
+}
+
+#liens_projets {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	font-size: 1.3em;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+#liens_projets ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#liens_projets ul li{
+	margin-top: 5px;
+}
+
+#liens_projets a {
+	color: #fff;
+}
+
+#liens_projets a:hover {
+	border-bottom: 0px;
+	color: #ffba00;
+}
+
+#liens_projets h3 {
+	margin: 0px;
+}
+
+/*couleur de fond*/
+
+div#portfolio {
+	background: url(../img/text_papier.jpg) repeat;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+
+div#galerie {
+	width: 80%;
+	padding: 15px;
+	margin: auto;
+	text-align: center;
+	font: 0.9em 'Open Sans Condensed', sans-serif;
+}
+
+/* vignettes */
+
+ul#galerie_mini {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+ul#galerie_mini li {
+	float: left;
+}
+
+ul#galerie_mini li a img {
+	margin: 2px 1px;
+	border: 1px solid #dcb;
+}
+
+ul#galerie_mini li a:hover {
+	border-bottom: 0px;
+}
+
+ul#galerie_mini li a img:hover {
+	opacity: 0.6;
+	/*  CSS3  */
+	filter(opacity=60);
+	/*  Pour IE  */
+}
+
+dl#photo {
+	clear: both;
+	margin: 0 auto;
+}
+
+dl#photo dt {
+	font: 1.5em 'Open Sans Condensed', sans-serif;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+dl#photo dd {
+	margin-top: 10px;
+}
+
+dl#photo img {
+	border: 0px;
+}

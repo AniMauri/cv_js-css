@@ -1,0 +1,70 @@
+/*----section formation----*/
+
+/* fonts
+
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Amatic SC', cursive; 
+*/
+
+#section_formation .content {
+	display: flex;
+	background-image: url(../img/bg_dragon.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.margin-formation {
+	margin-top: -120px;
+	height: 120px;
+}
+
+#skills,
+#s_formation {
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 50px;
+	border-radius: 10px 10px 10px 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	background-color: rgba(255, 255, 255, 0.8);
+	box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset;
+	font-size: 1.5em;
+}
+
+/* competences */
+
+table {
+	width: 100%;
+	margin: 5px;
+}
+
+tr {
+	height: 30px;
+}
+
+td {
+	padding: 5px;
+	font-size: 1.5em;
+}
+
+td img {
+	height: 25px;
+}
+
+.name {
+	padding-left: 20px;
+	width: 50%;
+}
+
+.number {
+	width: 30%;
+}
+
+/* formation */
+
+.over,
+.still {
+	font-weight: bold;
+}

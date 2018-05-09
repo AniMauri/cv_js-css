@@ -1,0 +1,143 @@
+/*----nav----*/
+
+/* fonts
+
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Amatic SC', cursive; 
+*/
+
+.icon_hamburger {
+	display: none;
+}
+
+.main-header {
+	z-index: 1000;
+	background-image: url(../img/frise_horiz_nav2.png);
+	background-repeat: repeat-x;
+	position: sticky;
+	top: 0;
+
+}
+
+#responsive_menu {
+	display: none;
+}
+
+.header-inner {
+	display: table;
+	width: 100%;
+	max-width: 1100px;
+	margin: 0 auto;
+	/* on centre l'élément */
+	padding: 20px 25px;
+	/* on ventile un peu */
+}
+
+.header-inner > * {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*taille du logo*/
+
+.header-logo img {
+	height: 75px;
+}
+
+.header-logo a:hover {
+	border-bottom: 0px;
+}
+
+/* Alignement du menu */
+
+.header-nav {
+	text-align: right;
+}
+
+/*
+   Faire passer le menu en inline (inline-block, inline-table ou inline-flex) pour le rendre sensible à l'alignement à droite. Ses items aussi sont en inline.
+*/
+
+.header-nav ul,
+.header-nav li {
+	display: inline;
+	list-style: none;
+}
+
+.header-nav a {
+	position: relative;
+	display: inline-block;
+	padding: 8px 20px;
+	vertical-align: middle;
+	font-size: 1.5em;
+	font-weight: 300;
+	/* entre regular et light */
+	letter-spacing: 0.025em;
+	color: #3d4047;
+	text-decoration: none;
+}
+
+/* Animation du lien */
+
+.header-nav a:hover {
+	border-bottom: 0px;
+}
+
+.header-nav a:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	left: 20px;
+	height: 2px;
+	background-color: #ffba00;
+
+	/* Préparation de notre animation */
+	opacity: 0;
+	transform: translateY(-15px);
+	transition: all .7s;
+}
+
+/* Le trait va remonter et apparaitre */
+
+.header-nav a:hover:after,
+.header-nav a:focus:after {
+	opacity: .6;
+	transform: translateY(0);
+}
+
+/* Je vire outline car juste au-dessus je définis un style :focus */
+
+.header-nav a:focus {
+	outline: none;
+}
+
+.nav-is-stuck .main-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 1);
+	background-image: url(../img/frise_horiz_nav.png);
+	background-repeat: repeat-x;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+	animation: stickAnim 1s;
+}
+
+.nav-is-stuck .main-header .header-inner {
+	padding: 10px 10px;
+}
+
+.nav-is-stuck .main-header .header-inner .header-nav a {
+	color: #415675;
+}
+
+@keyframes stickAnim {
+	0% {
+		opacity: 0.3;
+	}
+	100% {
+		opacity: 1;
+	}
+}
