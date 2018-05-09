@@ -5,6 +5,13 @@
 	height: 120px;
 }
 
+#lien_github {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 1.3em;
+}
+
 #liens_projets {
 	width: 75%;
 	margin-left: auto;
@@ -24,15 +31,15 @@
 	padding-left: 0px;
 }
 
-#liens_projets ul li{
+#liens_projets ul li {
 	margin-top: 5px;
 }
 
-#liens_projets a {
+#liens_projets a, #lien_github a {
 	color: #fff;
 }
 
-#liens_projets a:hover {
+#liens_projets a:hover, #lien_github a:hover {
 	border-bottom: 0px;
 	color: #ffba00;
 }

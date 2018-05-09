@@ -1,24 +1,22 @@
-#contact_content
-{
+#contact_content {
 	background: url(../img/contact_retro.jpg) no-repeat right;
 	background-size: cover;
 	padding-bottom: 30px;
 	box-shadow: 0px -5px 7px rgba(0, 0, 0, 0.6);
 }
 
-#coords
-{
+#coords {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 25px;
 	padding-top: 50px;
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 50px;
 }
 
-.coord
-{
+.coord {
 	width: 28%;
 	height: 75px;
 	color: #fff;
@@ -31,32 +29,27 @@
 	padding-bottom: 30px;
 }
 
-.coord a
-{
+.coord a {
 	color: #fff;
 }
 
-.coord a:hover 
-{
+.coord a:hover {
 	border-bottom: 0px;
 	color: #ffba00;
 }
 
-#address
-{
+#address {
 	width: 15%;
 	text-align: center;
 }
 
-#social
-{
+#social {
 	width: 15%;
 	flex-direction: row;
 	justify-content: space-around;
 }
 
-#linkedin
-{
+#linkedin {
 	background-image: url("../img/linkedin-icon.png");
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -64,17 +57,28 @@
 	width: 75px;
 }
 
-#linkedin:hover
-{
+#linkedin:hover {
 	background-image: url("../img/linkedin-icon-y.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
-footer
-{
+#github {
+	background-image: url("../img/github-sign.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 75px;
+	width: 75px;
+}
+
+#github:hover {
+	background-image: url("../img/github-sign-y.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+footer {
 	background: url(../img/text_papier.jpg) repeat;
-	background-size: cover;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
